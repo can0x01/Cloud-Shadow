@@ -49,7 +49,7 @@ python3 cloud_shadow.py -t https://api.target-infra.com -w 25
 
 Expected Output
 
-[*] Target: [https://api.target-infra.com](https://api.target-infra.com)
+[*] Target: [https://api.target-infra.com]
 [*] Payload Count: 142
 [*] Thread Count: 25
 ------------------------------------------------------------
