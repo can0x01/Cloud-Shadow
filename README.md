@@ -41,3 +41,29 @@ cd Cloud-Shadow
 
 # Setup dependencies
 pip3 install -r requirements.txt
+
+
+Operations
+
+python3 cloud_shadow.py -t https://api.target-infra.com -w 25
+
+Expected Output
+
+[*] Target: [https://api.target-infra.com](https://api.target-infra.com)
+[*] Payload Count: 142
+[*] Thread Count: 25
+------------------------------------------------------------
+[!] 200 | Size: 432  | Path: /.env
+[!] 403 | Size: 12   | Path: /.git/config
+[!] 200 | Size: 1024 | Path: /latest/meta-data/
+[!] 500 | Size: 89   | Path: /config.php.bak
+
+🛠️ Requirements
+
+Python 3.x
+
+requests library
+
+Contact: ahmetcan0x01@gmail.com
+
+Security Profile: @canmitm
