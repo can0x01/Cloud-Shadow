@@ -1,0 +1,49 @@
+# Cloud Metadata
+latest/meta-data/
+latest/meta-data/iam/security-credentials/
+computeMetadata/v1/instance/service-accounts/default/token
+metadata/instance
+# DevOps & Secrets
+.env
+.env.local
+.env.production
+.git/config
+.git/index
+.docker/config.json
+.aws/credentials
+.aws/config
+.ssh/id_rsa
+.ssh/id_dsa
+.ssh/authorized_keys
+# Config & Backups
+config.php.bak
+config.php~
+wp-config.php.dist
+web.config
+web.xml
+settings.py
+settings.pyc
+__pycache__/
+.htaccess
+.htpasswd
+# CI/CD & APIs
+jenkins/script
+api/v1/debug
+actuator/env
+actuator/health
+actuator/metrics
+actuator/heapdump
+actuator/configprops
+# Database & Logs
+dump.sql
+backup.sql
+db.sqlite
+storage/logs/laravel.log
+error.log
+access.log
+# Server Info
+server-status
+server-info
+phpinfo.php
+info.php
+test.php
